@@ -1,7 +1,7 @@
 <?php
 include("./include/header.inc");
-echo 'FingerMonkeyPainting Home';
-include("./include/header2.inc");
+echo 'LadderMonkeyPainting Home';
+include("./include/header2_index.inc");
 // header2 includes <body> tag, footer includes </body>
 
 
@@ -12,15 +12,23 @@ echo '
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
-            <a class="navbar-brand" href="#">FingerMonkeyPainting</a>
+            <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="./php/about.php">About/Contact</a></li>
+                <li><a href="./php/gallery.php">Gallery</a></li>
+                <li><a href="./php/schedule.php">Scheduling</a></li>
+                <li><a href="./php/employees.php">Meet the Team</a></li>
             </ul>
         </nav> 
         <!--end nav bar-->
 
-        <h1>About Us</h1>
+
+        <div class="container">
+            <h1>Ladder Monkey Painting</h1>
+            <p>Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
+        </div>
+
     </div>
 </div>';
 

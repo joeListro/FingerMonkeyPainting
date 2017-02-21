@@ -1,4 +1,3 @@
-
 <?php
 include("../include/header.inc");
 echo 'About/Contact LadderMonkeyPainting';
@@ -16,15 +15,16 @@ echo '
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li><a href="../index.php">Home<span class="sr-only">(current)</span></a></li>
-                <li class="active"><a href="#">About/Contact</a></li>
+                <li><a href="./about.php">About/Contact</a></li>
                 <li><a href="./gallery.php">Gallery</a></li>
-                <li><a href="./schedule.php">Scheduling</a></li>
+                <li class="active"><a href="./schedule.php">Scheduling</a></li>
                 <li><a href="./employees.php">Meet the Team</a></li>
             </ul>
         </nav> 
         <!--end nav bar-->
 
-        <h1>About Ladder Monkey Painting</h1>
+        <h1>Request an Appointment</h1>
+        <p>Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
     </div>
 </div>';
 
