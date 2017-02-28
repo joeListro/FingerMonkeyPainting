@@ -12,6 +12,7 @@ echo '
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
+			<a id="logo" class="pull-left"><img src="./images/logo.png"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>

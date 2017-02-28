@@ -42,7 +42,7 @@ echo '
 		<h1>Contact Me</h1>
 	</div>
 
-	<div class="panel panel-primary">
+	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Name</h3>
 		</div>
@@ -51,7 +51,7 @@ echo '
 		</div>
 	</div>
 	
-	<div class="panel panel-primary">
+	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Phone</h3>
 		</div>
@@ -60,7 +60,7 @@ echo '
 		</div>
 	</div>
 	
-	<div class="panel panel-primary">
+	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Address</h3>
 		</div>
