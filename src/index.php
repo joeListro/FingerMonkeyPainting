@@ -43,7 +43,7 @@ echo '
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-            <img src="./images/tmp.jpg" alt="cat">
+            <img src="./images/ tmp.jpg" alt="cat">
             </div>
 
             <div class="item">

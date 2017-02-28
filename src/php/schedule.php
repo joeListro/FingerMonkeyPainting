@@ -8,7 +8,6 @@ include("../include/header2.inc");
 //add in title
 echo '
 <div class="container"> 
-    <div class="jumbotron">
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
@@ -23,9 +22,10 @@ echo '
         </nav> 
         <!--end nav bar-->
 
-        <h1>Request an Appointment</h1>
-        <p>Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
-    </div>
+
+        <div>
+            <iframe src="https://docs.google.com/a/mymail.champlain.edu/forms/d/e/1FAIpQLSe0iHyIf3Q8ZCmkJ6eHjy0ZfzIVGeW8lVaVlEBuVg-9Iekt1g/viewform?embedded=true" style="width:100%; height:700px;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
 </div>';
 
 include("../include/footer.inc");
