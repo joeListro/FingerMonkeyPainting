@@ -33,3 +33,27 @@ iframe{
 	height: 50px;
 	width: 50px;
 }
+
+#galleryList li {
+    display: inline-block;
+    float: left;
+    list-style: none;
+    padding: 0;
+}
+
+
+
+
+#galleryList img {
+
+	
+	/*
+	for some reason this fuck with the 
+	formatting, makes it be a list
+	down instead of across
+   height: 50%;
+   width: 50%;
+	*/
+   height:133px;
+   width:200px;
+}

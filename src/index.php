@@ -4,7 +4,6 @@ echo 'LadderMonkeyPainting Home';
 include("./include/header2_index.inc");
 // header2 includes <body> tag, footer includes </body>
 
-
 //add in title
 echo '
 <div class="container"> 
@@ -44,7 +43,7 @@ echo '
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-            <img src="./images/ tmp.jpg" alt="cat">
+            <img src="./images/tmp.jpg" alt="cat">
             </div>
 
             <div class="item">
