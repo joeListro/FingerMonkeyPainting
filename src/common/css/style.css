@@ -58,11 +58,21 @@ iframe{
    width:200px;
 }
 
+@font-face {
+	font-family: "GothamRoundedMedium";
+	src: url(./fonts/GothamRnd-Medium.woff);
+}
 
 .company_name {
-	font:
+	color: #ffdb27;
+	font-family:"GothamRoundedMedium";
 }
 
 .company_name2 {
+	color: #ffdb27;
+	font-family:Oduda-Bold-Demo.woff;
+}
 
+#logo {
+	height=100%;
 }

@@ -13,6 +13,7 @@ echo '
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
+			<a id="logo" class="pull-left"><img src="../images/logo.jpg"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li><a href="../index.php">Home<span class="sr-only">(current)</span></a></li>

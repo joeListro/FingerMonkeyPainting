@@ -12,6 +12,7 @@ echo '
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
+			<a id="logo" class="pull-left"><img src="../images/logo.jpg"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li><a href="../index.php">Home<span class="sr-only">(current)</span></a></li>
@@ -22,30 +23,45 @@ echo '
             </ul>
         </nav> 
         <!--end nav bar-->
+		
+		<a id="logo" class="pull-left"><img src="../images/logo-jumbo.jpg"></a>
 
-        <h1>Meet the Workers</h1>
+        <h1>Meet the Team</h1>
     </div>
 	
 	<div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="../images/owner.jpg" alt="John Clark" width="140" height="140">
+          <h2>John Clark</h2>
+		  <p>Owner</p>
+          <p><a class="btn btn-default" href="./about.php" role="button">Contact Me</a></p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="../images/employee1.jpg" alt="Zach Denis" width="140" height="140">
+          <h3>Zach Denis</h3>
+          <p>Painter / Graphic Design</p>
         </div><!-- /.col-lg-4 -->
         <div class="col-lg-4">
-          <img class="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <img class="img-circle" src="../images/employee2.jpg" alt="Alex Good" width="140" height="140">
+          <h3>Alex Good</h3>
+          <p>Painter / Marketing</p>
         </div>
       </div>
+	  <div class="row">
+		<div class="col-lg-4">
+			
+		</div>
+		<div class="col-lg-4">
+		<img class="img-circle" src="../images/employee3.jpg" alt="George Bischoff" width="140" height="140">
+			<h3>George Bischoff</h3>
+			<p>Painter</p>
+		</div>
+		<div class="col-lg-4">
+		<img class="img-circle" src="../images/employee4.jpg" alt="Louis the Cat" width="140" height="140">
+			<h3>Louis</h3>
+			<p>Cat</p>
+		</div>
+	  </div>
 </div>';
 
 include("../include/footer.inc");
