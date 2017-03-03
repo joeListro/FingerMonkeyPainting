@@ -7,12 +7,11 @@ include("../include/header2.inc");
 
 //add in title
 echo '
-<div class="container"> 
+<div class="container">
     <div class="jumbotron">
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
-			<a id="logo" class="pull-left"><img src="../images/logo.jpg"></a>
 			<a id="logo" class="pull-left"><img src="../images/logo.jpg"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
@@ -22,14 +21,14 @@ echo '
                 <li><a href="./schedule.php">Scheduling</a></li>
                 <li><a href="./employees.php">Meet the Team</a></li>
             </ul>
-        </nav> 
+        </nav>
         <!--end nav bar-->
-		
+
 		<img class="pull-left" id="jumbo_image" src="../images/logo-jumbo.jpg">
 
         <h1 id="jumbo_title1">Gallery</h1>
     </div>
-	
+
 	    <div id="galleryListWrapper">
                     <ul id="galleryList" class="clearfix">
 						<li><a href="../images/gallery/gallery1.jpg" title="Image1" rel="colorbox"><img src="../images/gallery/gallery1.jpg" alt="Image1"/></a></li>
@@ -45,8 +44,8 @@ echo '
 						<li><a href="../images/tmp11.jpg" title="Image11" rel="colorbox"><img src="../images/tmp11.jpg" alt="Image11"/></a></li>
                     </ul>
             </div>
-	
-	
+
+
 </div>';
 
 include("../include/footer.inc");

@@ -7,10 +7,11 @@ include("../include/header2.inc");
 
 //add in title
 echo '
-<div class="container"> 
+<div class="container">
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
+		  <a id="logo" class="pull-left"><img src="../images/logo.jpg"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li><a href="../index.php">Home<span class="sr-only">(current)</span></a></li>
@@ -19,12 +20,12 @@ echo '
                 <li class="active"><a href="./schedule.php">Scheduling</a></li>
                 <li><a href="./employees.php">Meet the Team</a></li>
             </ul>
-        </nav> 
+        </nav>
         <!--end nav bar-->
 
 
         <div>
-            <iframe src="https://docs.google.com/a/mymail.champlain.edu/forms/d/e/1FAIpQLSe0iHyIf3Q8ZCmkJ6eHjy0ZfzIVGeW8lVaVlEBuVg-9Iekt1g/viewform?embedded=true" style="width:100%; height:700px;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+            <iframe src="https://docs.google.com/a/mymail.champlain.edu/forms/d/e/1FAIpQLSe0iHyIf3Q8ZCmkJ6eHjy0ZfzIVGeW8lVaVlEBuVg-9Iekt1g/viewform?embedded=true" style="width:100%; height:800px;" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
         </div>
 </div>';
 

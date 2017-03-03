@@ -8,7 +8,7 @@ include("../include/header2.inc");
 
 //add in title
 echo '
-<div class="container"> 
+<div class="container">
     <div class="jumbotron">
 
         <!--Start Nav Bar-->
@@ -22,28 +22,38 @@ echo '
                 <li><a href="./schedule.php">Scheduling</a></li>
                 <li><a href="./employees.php">Meet the Team</a></li>
             </ul>
-        </nav> 
+        </nav>
         <!--end nav bar-->
-		
+
 		<img class="pull-left" id="jumbo_image" src="../images/logo-jumbo.jpg">
 
         <h1 id="jumbo_title1">About Ladder Monkey Painting</h1>
-		
+
     </div>
-	
+
 	<div class="page-header">
 		<h1>About Us</h1>
 	</div>
-	
+
 	<div class="well">
 
 		Ladder Monkey Painting creates a holistic approach to house maintenance and client satisfaction. An expert in the field with residential customers, and offerings for light commercial potential. We provide interior and exterior painting abilities that continuously exceed expectations.
 
 	</div>
-	
+
 	<div class="page-header">
 		<h1>Contact Me</h1>
 	</div>
+
+	<form> <!--VALIDATE AND ADD SSL-->
+		<div class="form-group">
+		      <input type="user-email" id="contactForm" class="form-control" placeholder="Your Name">
+				<input type="user-name" id="contactForm" class="form-control" placeholder="Email">
+				<textarea class="form-control" rows="6" id="contactForm">Message</textarea>
+				<button type="submit" class="btn btn-default">Send</button>
+		</div>
+	</form>
+	<div class="clearfix"></div>
 
 	<div class="panel panel-default">
 		<div class="panel-heading">
@@ -53,7 +63,7 @@ echo '
 			John Clark
 		</div>
 	</div>
-	
+
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Phone</h3>
@@ -62,7 +72,7 @@ echo '
 			(603) 425-4684
 		</div>
 	</div>
-	
+
 	<div class="panel panel-default">
 		<div class="panel-heading">
 			<h3 class="panel-title">Address</h3>
@@ -72,7 +82,7 @@ echo '
 			<p>Burlington, VT 05401</p>
 		</div>
 	</div>
-		
+
 </div>';
 
 include("../include/footer.inc");

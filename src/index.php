@@ -6,7 +6,7 @@ include("./include/header2_index.inc");
 
 //add in title
 echo '
-<div class="container"> 
+<div class="container">
     <div class="jumbotron">
 
         <!--Start Nav Bar-->
@@ -20,9 +20,9 @@ echo '
                 <li><a href="./php/schedule.php">Scheduling</a></li>
                 <li><a href="./php/employees.php">Meet the Team</a></li>
             </ul>
-        </nav> 
+        </nav>
         <!--end nav bar-->
-		
+
 		<img class="pull-left" id="jumbo_image" src="./images/logo-jumbo.jpg">
 
 
@@ -45,19 +45,19 @@ echo '
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-            <img src="./images/monkey.jpg" alt="monkey">
+            	<img class="carousel-image" src="./images/monkey.jpg" alt="monkey">
             </div>
 
             <div class="item">
-            <img src="./images/tmp2.jpg" alt="cat">
+            	<img class="carousel-image" src="./images/tmp5.jpg" alt="!cat">
             </div>
 
             <div class="item">
-            <img src="./images/tmp3.jpg" alt="cat">
+            	<img class="carousel-image" src="./images/tmp6.jpg" alt="def not cat">
             </div>
 
             <div class="item">
-            <img src="./images/tmp4.jpg" alt="cat">
+            	<img class="carousel-image" src="./images/tmp7.jpg" alt="nocat">
             </div>
         </div>
 
