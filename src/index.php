@@ -11,7 +11,7 @@ echo '
 
         <!--Start Nav Bar-->
         <nav class="navbar navbar-default navbar-fixed-top">
-			<a id="logo" class="pull-left"><img src="./images/logo.png"></a>
+			<a id="logo" class="pull-left"><img src="./images/logo.jpg"></a>
             <a class="navbar-brand" href="#">LadderMonkeyPainting</a>
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
@@ -25,8 +25,8 @@ echo '
 
 
         <div class="container">
-            <h1>Ladder Monkey Painting</h1>
-            <p>Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
+            <h1 class="company_name">Ladder Monkey Painting</h1>
+            <p class="company_name2">Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
         </div>
 
     </div>
