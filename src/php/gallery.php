@@ -4,6 +4,7 @@ echo 'About/Contact LadderMonkeyPainting';
 include("../include/header2.inc");
 // header2 includes <body> tag, footer includes </body>
 
+//testing
 
 //add in title
 echo '
