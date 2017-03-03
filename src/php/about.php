@@ -35,53 +35,69 @@ echo '
 		<h1>About Us</h1>
 	</div>
 
-	<div class="well">
-
-		Ladder Monkey Painting creates a holistic approach to house maintenance and client satisfaction. An expert in the field with residential customers, and offerings for light commercial potential. We provide interior and exterior painting abilities that continuously exceed expectations.
-
+	<div class="col-xs-6">
+		<div class="well">
+			Ladder Monkey Painting creates a holistic approach to house maintenance and client satisfaction. An expert in the field with residential customers, and offerings for light commercial potential. We provide interior and exterior painting abilities that continuously exceed expectations.
+		</div>
 	</div>
 
+	<div class="col-xs-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Name</h3>
+			</div>
+			<div class="panel-body">
+				John Clark
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Phone</h3>
+			</div>
+			<div class="panel-body">
+				(603) 425-4684
+			</div>
+		</div>
+
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title">Address</h3>
+			</div>
+			<div class="panel-body">
+				<p>242 South Winooski Ave</p>
+				<p>Burlington, VT 05401</p>
+			</div>
+		</div>
+	</div>
+	
 	<div class="page-header">
 		<h1>Contact Me</h1>
 	</div>
 
-	<form> <!--VALIDATE AND ADD SSL-->
-		<div class="form-group">
-		      <input type="user-email" id="contactForm" class="form-control" placeholder="Your Name">
-				<input type="user-name" id="contactForm" class="form-control" placeholder="Email">
-				<textarea class="form-control" rows="6" id="contactForm">Message</textarea>
-				<button type="submit" class="btn btn-default">Send</button>
-		</div>
-	</form>
-	<div class="clearfix"></div>
-
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Name</h3>
-		</div>
-		<div class="panel-body">
-			John Clark
+<form>
+	<div class="form-group row">
+		<label for="user-email" class="col-xs-2" style="text-align:center; padding-top:6px; width:120px;">Your Email:</label>
+		<div class="col-xs-10">
+			<input class="form-control" type="email" value="IGW-user@example.com" name="user-email" style="width:70%;">
 		</div>
 	</div>
-
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Phone</h3>
-		</div>
-		<div class="panel-body">
-			(603) 425-4684
+	<div class="form-group row">
+		<label for="email-subj" class="col-xs-2" style="text-align:center; padding-top:6px; width:120px;">Subject:</label>
+		<div class="col-xs-10">
+			<input class="form-control" type="text" value="Subject" name="email-subj" style="width:40%;">
 		</div>
 	</div>
-
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title">Address</h3>
-		</div>
-		<div class="panel-body">
-			<p>242 South Winooski Ave</p>
-			<p>Burlington, VT 05401</p>
+	<div class="form-group row">
+		<label for="email-body" class="col-xs-2" style="text-align:center; width:120px">Message:</label>
+		<div class="col-xs-10" style="width:70%;">
+		 	<textarea class="form-control" name="email-body" type="text"style="height:250px;">Enter message here...</textarea>
+			<br>
+		  <button type="submit" class="btn btn-default" style="float:right;">Send</button>
 		</div>
 	</div>
+</form>
+
 
 </div>';
 
