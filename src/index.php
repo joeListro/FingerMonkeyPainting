@@ -22,11 +22,13 @@ echo '
             </ul>
         </nav> 
         <!--end nav bar-->
+		
+		<img class="pull-left" id="jumbo_image" src="./images/logo-jumbo.jpg">
 
 
         <div class="container">
-            <h1 class="company_name">Ladder Monkey Painting</h1>
-            <p class="company_name2">Stuff that goes here for filler maybe photos underneath here that links to the gallery?</p>
+            <h1 id="jumbo_title1">Ladder Monkey Painting</h1>
+            <p id="jumbo_title2">A Burlington based painting business.</p>
         </div>
 
     </div>
@@ -43,7 +45,7 @@ echo '
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-            <img src="./images/tmp.jpg" alt="cat">
+            <img src="./images/monkey.jpg" alt="monkey">
             </div>
 
             <div class="item">

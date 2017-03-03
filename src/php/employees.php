@@ -24,9 +24,9 @@ echo '
         </nav> 
         <!--end nav bar-->
 		
-		<a id="logo" class="pull-left"><img src="../images/logo-jumbo.jpg"></a>
+		<img class="pull-left" id="jumbo_image" src="../images/logo-jumbo.jpg">
 
-        <h1>Meet the Team</h1>
+        <h1 id="jumbo_title1">Meet the Team</h1>
     </div>
 	
 	<div class="row">

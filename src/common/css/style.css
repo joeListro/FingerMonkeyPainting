@@ -1,11 +1,11 @@
 body {
-	padding-top: 70px;
-	background-color: #FFE979;
+    padding-top: 70px;
+    background-color: #FFE979;
 }
 
 footer { 
-	position:relative;
-	bottom:0; 
+    position:relative;
+    bottom:0; 
 }
 
 .form-container{
@@ -25,13 +25,13 @@ footer {
 }
 
 iframe{
-	width:100%;
-	height:800px;
+    width:100%;
+    height:800px;
 }
 
 #logo>img {
-	height: 50px;
-	width: 50px;
+    height: 50px;
+    width: 50px;
 }
 
 #galleryList li {
@@ -46,33 +46,30 @@ iframe{
 
 #galleryList img {
 
-	
-	/*
-	for some reason this fuck with the 
+    /*
+    for some reason this fuck with the 
 	formatting, makes it be a list
 	down instead of across
    height: 50%;
    width: 50%;
-	*/
+   */
+   
    height:133px;
    width:200px;
 }
 
-@font-face {
-	font-family: "GothamRoundedMedium";
-	src: url(./fonts/GothamRnd-Medium.woff);
+#jumbo_title1 {
+    color: #ddb803;
+    font-family: "./fonts/GothamRnd-Medium.woff";
 }
 
-.company_name {
-	color: #ffdb27;
-	font-family:"GothamRoundedMedium";
+#jumbo_title2 {
+    color: #ad9000;
+    font-family: "./fonts/Oduda-Bold-Demo.woff";
 }
 
-.company_name2 {
-	color: #ffdb27;
-	font-family:Oduda-Bold-Demo.woff;
-}
-
-#logo {
-	height=100%;
+#jumbo_image {
+    position: relative;
+    height: 120px;
+    background-size: cover;
 }

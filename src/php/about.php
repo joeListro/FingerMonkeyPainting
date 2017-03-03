@@ -24,8 +24,10 @@ echo '
             </ul>
         </nav> 
         <!--end nav bar-->
+		
+		<img class="pull-left" id="jumbo_image" src="../images/logo-jumbo.jpg">
 
-        <h1>About Ladder Monkey Painting</h1>
+        <h1 id="jumbo_title1">About Ladder Monkey Painting</h1>
 		
     </div>
 	
