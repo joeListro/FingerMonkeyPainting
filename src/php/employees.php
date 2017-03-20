@@ -7,7 +7,7 @@ include("../include/header2.inc");
 
 //add in title
 echo '
-<div class="container"> 
+<div class="container">
     <div class="jumbotron">
 
         <!--Start Nav Bar-->
@@ -21,14 +21,14 @@ echo '
                 <li><a href="./schedule.php">Scheduling</a></li>
                 <li class="active"><a href="./php/employees.php">Meet the Team</a></li>
             </ul>
-        </nav> 
+        </nav>
         <!--end nav bar-->
-		
+
 		<img class="pull-left" id="jumbo_image" src="../images/logo-jumbo.jpg">
 
-        <h1 id="jumbo_title1">Meet the Team</h1>
+		<h1 id="jumbo_title1">Meet the Team</h1>
     </div>
-	
+
 	<div class="row">
         <div class="col-lg-4">
           <img class="img-circle" src="../images/owner.jpg" alt="John Clark" width="140" height="140">
@@ -46,10 +46,11 @@ echo '
           <h3>Alex Good</h3>
           <p>Painter / Marketing</p>
         </div>
-      </div>
-	  <div class="row">
+   </div>
+
+  <div class="row">
 		<div class="col-lg-4">
-			
+
 		</div>
 		<div class="col-lg-4">
 		<img class="img-circle" src="../images/employee3.jpg" alt="George Bischoff" width="140" height="140">
@@ -61,7 +62,8 @@ echo '
 			<h3>Louis</h3>
 			<p>Cat</p>
 		</div>
-	  </div>
+  </div>
+
 </div>';
 
 include("../include/footer.inc");

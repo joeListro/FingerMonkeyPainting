@@ -75,7 +75,7 @@ echo '
 		<h1>Contact Me</h1>
 	</div>
 
-<form>
+<form action="./sendMail.php" method="POST">
 	<div class="form-group row">
 		<label for="user-email" class="col-xs-2" style="text-align:center; padding-top:6px; width:120px;">Your Email:</label>
 		<div class="col-xs-10">

@@ -1,12 +1,15 @@
 
 	</body>
 
-	<footer class="footer">
+	<footer class="footer" >
 		<div class="container">
-		  <p class="text-muted">© FingerMonkeyPainting | Burlington, VT | 2017</p>
+		  <p class="text-muted">© LadderMonkeyPainting | Burlington, VT | 2017</p>
+
+			
+			<!--!!!!add site map and put in related links to LMP-->
+
+
 		</div>
 	 </footer>
 
 	</html>
-
-
