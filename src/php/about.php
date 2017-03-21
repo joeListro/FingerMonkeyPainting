@@ -79,19 +79,19 @@ echo '
 	<div class="form-group row">
 		<label for="user-email" class="col-xs-2" style="text-align:center; padding-top:6px; width:120px;">Your Email:</label>
 		<div class="col-xs-10">
-			<input class="form-control" type="email" value="IGW-user@example.com" name="user-email" style="width:70%;">
+			<input class="form-control" type="email" placeholder="IGW-user@example.com" name="user-email" style="width:70%;">
 		</div>
 	</div>
 	<div class="form-group row">
 		<label for="email-subj" class="col-xs-2" style="text-align:center; padding-top:6px; width:120px;">Subject:</label>
 		<div class="col-xs-10">
-			<input class="form-control" type="text" value="Subject" name="email-subj" style="width:40%;">
+			<input class="form-control" type="text" placeholder="Subject" name="email-subj" style="width:40%;">
 		</div>
 	</div>
 	<div class="form-group row">
 		<label for="email-body" class="col-xs-2" style="text-align:center; width:120px">Message:</label>
 		<div class="col-xs-10" style="width:70%;">
-		 	<textarea class="form-control" name="email-body" type="text"style="height:250px;">Enter message here...</textarea>
+		 	<textarea class="form-control" name="email-body" type="text"style="height:250px;" placeholder="Enter message here..."></textarea>
 			<br>
 		  <button type="submit" class="btn btn-default" style="float:right;">Send</button>
 		</div>
