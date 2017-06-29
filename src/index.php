@@ -7,6 +7,7 @@ include("./include/header2_index.inc");
 //add in title
 echo '
 <div class="container">
+<div class="wrapper">
     <div class="jumbotron">
 
         <!--Start Nav Bar-->
@@ -67,6 +68,7 @@ echo '
             <span class="sr-only">Next</span>
         </a>
     </div>
+</div>
 </div>';
 
 include("./include/footer.inc");

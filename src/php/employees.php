@@ -36,6 +36,22 @@ echo '
 		  <p>Owner</p>
           <p><a class="btn btn-default" href="./about.php" role="button">Contact Me</a></p>
         </div><!-- /.col-lg-4 -->
+		<div class="col-lg-4">
+		<img class="img-circle" src="../images/employee3.jpg" alt="George Bischoff" width="140" height="140">
+			<h3>George Bischoff</h3>
+			<p>Painter</p>
+		</div>
+        <div class="col-lg-4">
+          <img class="img-circle" src="../images/employee5.jpg" alt="Joe Listro" width="140" height="140">
+          <h3>Joe Listro</h3>
+          <p>Support Specialist / Lead Web Developer</p>
+        </div><!-- /.col-lg-4 -->
+   </div>
+
+  <div class="row">
+		<div class="col-lg-4">
+
+		</div>
         <div class="col-lg-4">
           <img class="img-circle" src="../images/employee1.jpg" alt="Zach Denis" width="140" height="140">
           <h3>Zach Denis</h3>
@@ -46,21 +62,16 @@ echo '
           <h3>Alex Good</h3>
           <p>Painter / Marketing</p>
         </div>
-   </div>
-
-  <div class="row">
+  </div>
+  
+    <div class="row">
 		<div class="col-lg-4">
 
 		</div>
 		<div class="col-lg-4">
-		<img class="img-circle" src="../images/employee3.jpg" alt="George Bischoff" width="140" height="140">
-			<h3>George Bischoff</h3>
+		<img class="img-circle" src="../images/employee4.jpg" alt="Jim Clark" width="140" height="140">
+			<h3>Jim Clark</h3>
 			<p>Painter</p>
-		</div>
-		<div class="col-lg-4">
-		<img class="img-circle" src="../images/employee4.jpg" alt="Louis the Cat" width="140" height="140">
-			<h3>Louis</h3>
-			<p>Cat</p>
 		</div>
   </div>
 
