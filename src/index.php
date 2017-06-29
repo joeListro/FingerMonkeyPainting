@@ -49,10 +49,6 @@ echo '
             </div>
 
             <div class="item">
-            	<img class="carousel-image" src="./images/tmp5.jpg" alt="!cat">
-            </div>
-
-            <div class="item">
             	<img class="carousel-image" src="./images/tmp6.jpg" alt="def not cat">
             </div>
 
